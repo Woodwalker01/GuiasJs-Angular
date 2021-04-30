@@ -1,0 +1,15 @@
+*{
+	background-color: black;
+	color: white;
+}
+header{
+	align-self: center;
+}
+h3{
+	font-style: italic;
+}
+section{
+	font: helvetica;
+	font-size: 12pt;
+	text-align: justify;
+}

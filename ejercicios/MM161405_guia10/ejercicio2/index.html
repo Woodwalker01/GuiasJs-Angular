@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Reproductor de música JavaScript</title>
+	<link href="css/style.css" rel="stylesheet"> 
+    <script src="js/Reproductor.js"></script>
+
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="canciones/jojos.mp3" type="audio/mpeg">
+    </audio>
+    <div id="musicaactual"></div>
+    <!-- Reproductor MP3 -->
+    <div class="mp3">
+        <div class="screen">
+            <p id="info-track"></p>
+        </div>
+        <div class="controles">
+            <button id="play">Play</button>
+            <button id="pause">Pause</button>
+            <button id="stop">Stop</button>
+            <button id="primera">Primera</button>
+            <button id="anterior">Anterior</button>
+            <button id="siguiente">Siguiente</button>
+            <button id="ultima">Ultima</button>
+            <!-- Control para deslizar la barra de volumen y baja o subir volumen -->
+            <input type="range" min="0" max="1" value="1" step="0.1"  id="volumen">
+            <!-- Control para deslizar la barra para avanzar o retroceder la canción -->
+            <button>Control deslizar</button>
+            <button>Aleatorio</button>
+        </div>
+    </div>
+</body>
+</html>

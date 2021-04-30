@@ -1,0 +1,28 @@
+{
+    "title": "CINE CESQUETTA",
+    "description": "Las mejores peliculas solo en Cine Cesquetta",
+    "language": "es",
+    "items": [
+        {
+            "Titulo" : "InterStellar",
+            "Director"  : "Cristopher Nolan",
+            "logo" : "img/inter.jpg",
+            "Sinopsis": "Gracias a un descubrimiento, un grupo de científicos y exploradores, encabezados por Cooper, se embarcan en un viaje espacial para encontrar un lugar con las condiciones necesarias para reemplazar a la Tierra y comenzar una nueva vida allí.",
+            "Reparto": "Matthew McConaughey, Anne Hathaway, David Gyasi, Jessica Chastain, Mackenzie Foy, Matt Damon, Michael Caine, John Lithgow, Casey Affleck, Timothée Chalamet, Wes Bentley, Ellen Burstyn, Topher Grace, David Oyelowo, Collette Wolfe, Leah Cairns, Elyes Gabel"
+        },
+        {
+            "Titulo": "Parasyte",
+            "Director": " Bong Joon-ho",
+            "logo" : "img/parasyte.jpg",
+            "Sinopsis": "Tanto Gi Taek como su familia están sin trabajo. Cuando su hijo mayor, Gi Woo, empieza a impartir clases particulares en la adinerada casa de los Park, las dos familias, que tienen mucho en común pese a pertenecer a dos mundos totalmente distintos, entablan una relación de resultados imprevisibles.",
+            "Reparto": "Song Kang-ho, Lee Seon-gyun, Jang Hye-jin, Cho Yeo-jeong, Choi Woo-sik, Park So-dam, Park Seo-joon, Lee Jeong-eun, Park Keun-rok, Hyun Seung-Min, Andreas Fronk, Park Myeong-hoon, Jung Hyun-jun, Ji-hye Lee, Joo-hyung Lee, Jeong Esuz, Ik-han Jung, Seong-Bong Ahn, Dong-yong Lee, Hyo-shin Pak"
+        },
+        {
+            "Titulo": "Me quiero Comer tu Pancréas",
+            "Director": "Shinichiro Ushijima",
+            "logo" : "img/kimi.jpg",
+            "Sinopsis": "Un día, un solitario estudiante de secundaria encuentra un libro de bolsillo en el hospital. Resulta ser un diario de una compañera de clase, Sakura Yamauchi, en el cual escribe que le quedan sólo unos cuantos meses de vida, debido a una enfermedad que afecta a su páncreas.",
+            "Reparto": "Ryūnosuke Kamiki,Mone Kamishiraishi,Masami Nagasawa,Etsuko Ichihara ,Ryo Narita, Aoi Yūki,Nobunaga Shimazaki,Kaito Ishikawa,Kanon Tani"
+        }
+    ]
+}

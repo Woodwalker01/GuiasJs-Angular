@@ -1,0 +1,146 @@
+*{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+h1{
+	font-size: 2rem;
+	text-align: center;
+}
+p{
+text-align: justify;
+	font-size: 1rem;
+}
+div{
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding:  2rem;
+	box-sizing: border-box;
+}
+.E1
+{
+	
+background-color:#FF7F00;
+font: outline;
+padding: 2cm;
+padding-bottom: 5cm;
+
+
+}
+
+.E2
+{
+background-color:	#FFFF00;
+font: outline;
+padding: 2cm;
+padding-bottom: 5cm;
+
+margin: 0 auto;
+}
+.E3
+{
+background-color: #008000;
+font: outline;
+padding: 2cm;
+padding-bottom: 5cm;
+}
+.E4
+{
+background-color:#00aae4;
+font: outline;
+padding: 2cm;
+padding-bottom: 5cm;
+}
+.escudos{
+
+float: left;
+
+}
+.logo{
+display:block;
+margin: auto;
+}
+.Titulo
+{
+font-size: 50px;
+text-align: center;
+background-color: crimson;
+}
+@media screen and (max-width:480px){
+	/*Estilos para Moviles*/
+	/*El tamaño de los h1 para moviles sera de */
+	html{
+		font-size: 14px;
+	}
+	body{
+		background-color: #03A9f4;
+	}
+	div{
+		width: 95%;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	/*Estilos para Tablets*/
+	html{
+		font-size: 12px;
+	}
+	body{
+		background-color: white;
+	}
+	div{
+		width:auto%;
+	}
+	.escudos{
+		float: left;
+		
+	}
+	h1{
+		text-align: center;
+	
+	}
+	table{
+		padding:2cm;
+	}
+	.E1{
+		padding-bottom: 5cm;
+	}
+	
+}
+@media screen and (min-width: 769px){
+/*Estilos para PC*/
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #e0e0e0;
+}
+div{
+	width:30%;
+
+}
+}
+table{
+	background-color: white;
+	text-align: right;
+	border-collapse: collapse;
+	width: 10%;
+	float: right;
+}
+
+th, td{
+	padding: 5px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}

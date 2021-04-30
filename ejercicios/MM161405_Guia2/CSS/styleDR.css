@@ -1,0 +1,35 @@
+*{
+	background-color: black;
+	color: white;
+	margin-top: 1cm;
+}
+header{
+	align-self: center;
+}
+p1{
+	color:white;
+font-size: 30px;	
+background-image: repeating-linear-gradient(red);
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	background-color: teal;
+}
+ps{
+	font-size: 30px;
+	text-align: justify;
+}
+h3{
+	font-style: italic;
+}
+.Encabezado{
+	font-size: 200px;
+	text-align: center;
+	background-color: tomato;
+}
+section{
+	font: helvetica;
+	font-size: 12pt;
+	text-align: justify;
+}

@@ -1,0 +1,56 @@
+*{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+h1{
+	font-size: 2rem;
+}
+p{
+text-align: justify;
+	font-size: 1rem;
+}
+div{
+	background-color: white;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding:  2rem;
+	box-sizing: border-box;
+}
+@media screen and (max-width:480px){
+	/*Estilos para Moviles*/
+	/*El tamaño de los h1 para moviles sera de */
+	html{
+		font-size: 14px;
+	}
+	body{
+		background-color: #03A9f4;
+	}
+	div{
+		width: 95%;
+	}
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+	/*Estilos para Tablets*/
+	html{
+		font-size: 15px;
+	}
+	body{
+		background-color: #ff9800;
+	}
+	div{
+		width:85%;
+
+	}
+}
+@media screen and (min-width: 769px){
+/*Estilos para PC*/
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #e0e0e0;
+}
+div{
+	width:75%;
+
+}
+}

@@ -1,0 +1,147 @@
+<!--Molina Moz Andrés Eduardo MM161405-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>Actividad</title>
+ <style>
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+svg {
+  path {
+    transition: .1s;
+  }
+
+  &:hover path {
+    d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+  }
+}
+
+body {
+  background: #fff;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  position: relative;
+}
+h1{
+  font-weight: 900 ;
+}
+h2{
+  background-color:crimson ;
+  color:white;
+  }
+h3 {
+  font-weight: 400;
+  text-align: center;
+ 
+}
+
+header {
+  color: #fff;
+  padding-top: 2vw;
+  padding-bottom: 15vw;
+  text-align: center;
+}
+
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  padding: 10vh 0 80vh;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 2vw;
+  padding-bottom: 15vw;
+
+border-radius: 1cm;
+    
+  margin-left: 1cm;
+  margin-right: 1cm;
+  }
+
+
+footer {
+  background: #dddee1;
+  padding: 5vh 0;
+  text-align: center;
+  position: relative;
+}
+
+small {
+  opacity: .5;
+  font-weight: 300;
+
+  a {
+    color: inherit;
+  }
+}
+
+ </style>
+</head>
+<body>
+   <div class="svg-container">
+        <!-- I crated SVG with: https://codepen.io/anthonydugois/pen/mewdyZ -->
+        <svg viewbox="0 0 800 400" class="svg">
+          <path id="curve" fill="#FF0000" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+        </path>
+        </svg>
+      </div>
+      <header>
+        <h1>AMD RYZEN Serie 4000</h1>
+
+        <img src="imagenes/head.JPG" alt="head" style="width:500px;height:300px;">
+        
+      </header>  
+ 
+      <main>
+        <div > 
+          <img src="imagenes/Zen.jpg" alt="head" style="width:600px;height:400px;">
+          <p >
+          La compañía de Sunnyvale ha presentado por fin sus APUs AMD Ryzen 4000 para escritorio,
+           una generación que, como la versión para portátiles, parte de la arquitectura Zen 2 en su lado CPU y que mantiene la arquitectura GCN en su lado GPU. 
+           Esto quiere decir que tenemos el mismo diseño de procesador y núcleo gráfico en un mismo encapsulado, pero las arquitecturas de ambos componentes se sitúan en niveles distintos.
+
+
+          Zen 2 es una arquitectura de nueva generación que marcó una importante evolución frente a Zen+, y ofrece un IPC que está, en general, al mismo nivel que los procesadores Core de Intel.
+           Sin embargo, la arquitectura GCN es una vieja conocida que lleva entre nosotros desde finales de 2011. Es cierto que AMD ha ido introduciendo mejoras que han permitido un aumento del 
+           rendimiento y una mayor eficiencia, pero debería haber dado ya el salto a la arquitectura RDNA, utilizada en las nuevas Radeon RX 5000.
+          
+          La mejora más importante que traen estas nuevas APUs se centra, por tanto, en el rendimiento y la eficiencia a nivel CPU.
+           No solo montan procesadores con una mayor potencia comparados con la generación anterior, sino que además, tienen un rendimiento por vatio consumido mucho mayor.
+            Las AMD Ryzen 4000 están muy por encima de la serie 3000 a nivel de procesador, pero no tanto a nivel de GPU.</p>
+        </div>
+            
+                <h2>AMD Ryzen 4000: un vistazo al silicio</h2>
+                <div style="color: green"></div>
+                <p>En la imagen adjunta podéis encontrar todos los componentes clave de las APUs AMD Ryzen 4000.
+                    Tenemos un diseño monolítico con ocho núcleos, lo que nos deja una configuración máxima de 8 núcleos
+                     y 16 hilos gracias a la tecnología SMT. Cada bloque de cuatro núcleos dispone de 4 MB de memoria caché L3,
+                      lo que arroja un total de 8 MB.</p>
+              </div>
+              <img src="imagenes/1.JPG" alt="head" style="width:1280px;height:720px;">
+        
+           
+      
+      </main>
+    
+      <footer>
+        <p>ACTIVIDAD 1 para Lenguajes interpretados en el cliente.</p>
+        <small>, <a href=""></a>.</small>
+      </footer>
+     
+</body>
+</html>
+<!--Molina Moz Andrés Eduardo MM161405-->

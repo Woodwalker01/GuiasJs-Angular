@@ -1,0 +1,25 @@
+<html>
+
+<head>
+  <title>Ejemplo de write</title>
+  <link rel="stylesheet" href="css/calc.css"/>
+  <script>
+    function nuevoContenido() {
+      document.open();
+      document.write('<link rel="stylesheet" href="css/calc.css"/>')
+      document.write("<header>Header</header>");
+      document.write("<nav>navigation</nav>");
+      document.write("<article>article</article>");
+      document.write("<article>article</article>");
+      document.write("<article>article</article> ");
+      document.write("<p></p>");
+      document.write("<footer>Footer</footer>");
+      document.close();
+    }
+  </script>
+</head>
+
+<body onload="nuevoContenido();">
+</body>
+
+</html>

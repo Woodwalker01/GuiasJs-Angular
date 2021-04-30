@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>RESTAURANTE</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/fonts.css" />
+        <link rel="stylesheet" href="css/links.css" />
+        <script src="js/ordenes.js"></script>
+      
+        </head>
+        <body onload="inciio()">
+           
+        <div class="container">
+        <header id="vintage">
+        <h1>RESTAURANTE EL SUPER POLLO</h1>    
+    </header>
+        <section>
+        <article class="color-5">
+        <h2>COMBOS Pollones</h2>
+        <nav id="cl-effect-19 a" class="cl-effect-19 a" >
+            </nav>
+            </article>
+        <!-- Parte de los botones radiales -->
+        <form name="rbuton" id="rbcombo" method="get">
+      
+            <input type="radio" name="combo1" value="7.25" id="C1" checked >Super Combo
+            <input type="radio" name="combo2" value="5.75" id="C2">Combo Personal
+            <input type="radio" name="combo3" value="3.50" id="C3">Combo Infantil 
+            <article class="color-1">
+            <h2>Ingredientes Poll-individuales</h2>
+            <nav id="cl-effect-20 a" class="cl-effect-20 a">
+            </nav>
+            </article>
+            <!-- Parte de los Cheks e ingredientes -->
+           
+            <input type="checkbox" name="chk" value="1.50"  id="Ensalada">Ensalada
+            <input type="checkbox" name="chk" value="1.25" id="I2">Papas Frita
+            <input type="checkbox" name="chk" value="1.75" id="I3">Pieza de pollo grande
+            <input type="checkbox" name="chk" value="1.50" id="I4">Pieza de pollo mediana
+            <input type="checkbox" name="chk" value="1.25" id="I5">Pieza de pollo pequeña
+            <input type="checkbox" name="chk" value="1.50" id="I6">Bebida grande
+            <input type="checkbox" name="chk" value="1.25" id="I7">Bebida mediana
+            <input type="checkbox" name="chk" value="1.00" id="I8">Bebida pequeña
+            <input type="checkbox" name="chk" value="0.50" id="I9">Cafe
+            <input type="checkbox" name="chk" value="1.25"id="I10">Postre
+
+            <br> <h1>pedido</h1>
+            <br> <textarea name="sugest" id="pedido" rows="12" cols="50"></textarea>
+        </form>
+            <article class="color-2">
+                <input type="button"  value="Actualizar pedido" onclick="capturar()">
+                <h2>Total a pagar</h2>
+                <nav id="cl-effect-20 a" class="cl-effect-20 a">
+                <a>
+                <br>
+                <input type="text" name="total" id="total" value="" onclick="capturar()"><br><br>
+  
+                </a>
+                
+                </a>
+                </nav>
+                </article>
+            </section>
+            </div>
+       
+            </body>
+            </html>
+            

@@ -1,0 +1,27 @@
+*{
+
+}
+header{
+	align-self: center;
+}
+h1{
+	background-color: blue;
+	color:white;
+	text-align: center;
+}
+h2{
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+h3{
+	font-style: italic;
+}
+section{
+	font: helvetica;
+	font-size: 12pt;
+	text-align: justify;
+}

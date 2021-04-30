@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <title>Registro de Usuario</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/modernform.css" />
+ <script type="text/javascript" src="js/miembro.js"></script>
+</head>
+
+<body>
+<div class="container">
+<section class="tabblue">
+ <ul class="tabs blue">
+  <li>
+  <input name="tabs blue" id="tab1" checked="" type="radio">
+  <label for="tab1">Datos de Usuario</label>
+  <div id="tab-content1" class="tab-content">
+  <p>
+  Ingresa los siguientes datos para completar tu registro.
+  </p>
+  <form name="frmmat" id="pais">
+ <!-- <form name="register" action=""> -->
+    <span class="tabaddon"><i class="fa fa-user fa-2x"></i></span>
+    <input type="text" name="txtname" id="txtname" required="required" placeholder="(Su nombre)" class="field" />
+
+
+    <span class="tabaddon"><i class="fa fa-envelope fa-2x"></i></span>
+    <input type="text" name="txtlastname" id="txtlastname" required="required" placeholder="(Su primer apellido)" class="field" />
+
+   <span class="tabaddon"><i class="fa fa-envelope fa-2x"></i></span>
+    <input type="text" name="txtlastname2" id="txtlastname2" required="required" placeholder="(Su segundo apellido)" class="field" />
+
+    <span class="tabaddon"><i class="fa fa-envelope fa-2x"></i></span>
+    <input type="number" name="txtage" id="txtage" required="required" placeholder="(Su edad)" class="field" />
+    
+
+    <span class="tabaddon"><i class="fa fa-envelope fa-2x"></i></span>
+    <input type="text" name="txtemail" id="txtemail" required="required" placeholder="(Su E-Mail)" class="field" />
+
+    <div class="accounttype">
+
+
+     <p>Género:</p>
+      <input type="radio" value="Masculino" id="radioOne" name="chkgender" checked="checked" />
+      <label for="radioOne" class="radio" chec>Masculino</label>
+      <input type="radio" value="Femenino" id="radioTwo" name="chkgender" />
+      <label for="radioTwo" class="radio">Femenino</label>
+      </div>
+
+
+    
+     
+
+    
+    <div class="btn">
+    <input type="button" name="btnSend" id="btnSend" value="registrar" />
+    </div>
+    </form>
+    </div>
+    </li>
+    </ul>
+   </section>
+   </div>
+  
+</body>
+</html>

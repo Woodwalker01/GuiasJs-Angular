@@ -1,0 +1,108 @@
+classPersona {
+ first_name:string;
+ last_name:string;
+ constructor(_first_name?:string, _last_name?:string) {
+ this.first_name = "_first_name";
+ this.last = "_last_name";
+ }
+}
+constructor(){
+}
+constructor(_first_name?:string, _last_name?:string) this.first_name = "_first_name";
+ this.last = "_last_name";
+ }
+
+let personaUno = new Persona();
+let personaDos = new Persona("Jorge");
+let personaTres = new Persona("Jorge", "Cano");
+//Teniendo en cuenta:
+constructor(_first_name:string, _last_name:string)
+this.first_name = "_first_name";
+this.last = "_last_name";
+}
+// Esto ya no se podrá ser una instancia de esa claselet personaDos = new Persona("Jorge");
+//Esta será una instancia de esa claselet personaTres = new Persona("Jorge", "Cano");
+var a:string = "Uriel";
+var b = `Saludos a ti ${this.a},`;
+console.log(b);`
+getSaludo():string{
+ let emojis = '(⌐■_■)';
+ return`Saludos
+ ${this.last_name}, ${this.first_name}
+ Le enviamos un saludo desde la consola!
+ ${emojis}
+ `;
+ }
+interfaceMyPersona{
+ first_name:string;
+ last_name:string;
+ twitter_account?:string;
+}
+letpersonaUno:MyPersona = {
+ first_name : 'Jorge',
+ last_name : 'Cano',
+ twitter_account: '@jorgeucano'
+}
+class Person{
+ first_name:string;
+ last_name:string;
+ twitter_user:string;
+ constructor(){
+ this.first_name = "Jor";
+ this.last_name = "Ca";
+ this.twitter_user = "@jorgeucano";
+ }
+ setLastName(last_name : string){
+ this.last_name = last_name;
+ }
+}
+var myPerson = new Person();
+myPerson.first_name = "Jorge";
+myPerson.setLastName("Cano");
+console.log(myPerson);
+Function color(value: string){ // Así definimos el decorator
+fabric return function(target){
+// Este es el decorator, prácticamente regresamos una una función con la funcionalidad, se
+pide el objetivo
+// Aquí es donde modificamos el objetivo con el valor pedido desde el decorator
+ }
+ class Greeter {
+ greeting: string;
+ constructor(message: string) {
+ this.greeting = message;
+ }
+ @enumerable(false)
+ greet() {
+ return"Hey, " + this.greeting;
+ // return
+ }}
+functionenumerable(value: boolean) {
+ returnfunction (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
+ descriptor.enumerable = value;
+ };
+}
+let gree = new Greeter("Soy el mensaje");
+console.log(gree.greet());
+{
+ "compilerOptions": {
+ "target": "ES5",
+// Definir en que versión de JS nos gustaría convertir el .ts"
+
+ experimentalDecorators": true,
+// Activar funciones experimentales, en este caso decorators
+ "module": "system", // Usar el modulo system
+ "noImplicitAny": true, // Habilitar el uso de implicitos Any
+ "removeComments": true, // Remover todos los comentarios en nuestros archivos
+ "preserveConstEnums": true, // Manejar los enumerables como constantes, esto es muy
+recomendado
+ "OutFile": "./tsc.js", // Donde vamos a tener el archivo resultante
+ "sourceMap": true// Para ver un log de la transpilación
+ },
+ "include": [
+ "*"// Ver que archivos vamos a compilar, usar * indica que serán todos
+ ],
+ "exclude": [
+ "node_modules"// Agregar los archivos que no queremos incluir en la transpilación "
+ **/*.spec.ts"
+ ]
+}

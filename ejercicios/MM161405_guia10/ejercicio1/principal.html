@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Analisis de resultados 1</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/base.css" />
+    <script src="js/sessionStorage.js"></script>
+    <script src="js/localstorage.js"></script>
+  </head>
+  <body>
+    <section >
+      <legend>Datos personales</legend>
+      <form name="formulario" class="form">
+        <li>
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            placeholder="(su nombre)"
+          />
+        </li>
+        <li>
+        
+          <label for="pais">Pais:</label>
+          <select name="pais" id="pais">
+            <option id="1" value="Guatemala">Guatemala</option>
+            <option id="2" value="Honduras">Honduras</option>
+            <option id="3" Value="El Salvador">El Salvador</option>
+            <option id="4" value="Nicaragua">Nicaragua</option>
+            <option id="4" value="Costa Rica">Costa Rica</option>
+            <option id="4" value=" Panama">Panama</option>
+          </select>
+        </li>
+        <li>
+          <label for="bio">Biografía:</label>
+        </li>
+        <textarea id="Bio" placeholder="(Biografia)" ></textarea>
+      </form>
+      <button type="button" onclick="save()">Guardar en localstorage</button>
+      <button type="button" onclick="obtain()">Cargar de localstorage</button>
+      <button type="button" onclick="save()">Guardar en sessionStorage</button>
+      <button type="button" onclick="save()">Cargar de sessionStorage</button>
+      <div id ="reloj"></div>
+    </section>
+  </body>
+</html>
+
